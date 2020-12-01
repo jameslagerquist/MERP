@@ -1,9 +1,9 @@
 import random
 
 attOB = int(input("What is the Attacker's OB? "))
-attWE = input("What is the Attacker's Weapon/Attack? ")
+#attWE = input("What is the Attacker's Weapon/Attack? ") NEED CODE
 defDB = int(input("What is the Defender's DB? "))
-defAT = input("What is the Defender's Armor Type? ")
+#defAT = input("What is the Defender's Armor Type? ") NEED CODE
 
 weapons = {
     "da" : "Dagger",
