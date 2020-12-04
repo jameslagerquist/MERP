@@ -1,0 +1,25 @@
+import random
+
+def attackroll(OB, DB):
+    rollValue = random.randrange(1, 100)
+    totalRoll = rollValue
+
+    def checkRollforOpenEnded(totalRoll):
+        if (totalRoll == 69):
+            return True
+        if (totalRoll ==66):
+            return True
+        if (totalRoll >= 96):
+            return True
+        else:
+            return False
+
+    while (checkRollforOpenEnded(rollValue)):
+        totalRoll += rollValue
+        rollValue = random.randrange(1, 100)
+        return totalRoll   
+
+    return (OB + totalRoll - DB)
+
+
+print(attackroll(50,25))
