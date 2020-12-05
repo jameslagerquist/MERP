@@ -1,0 +1,602 @@
+[
+  {
+    "Plate": {
+      "damage": 0,
+      "crit": "possible fumble"
+    },
+    "Chain": {
+      "damage": 0,
+      "crit": "possible fumble"
+    },
+    "Rigid Leather": {
+      "damage": 0,
+      "crit": "possible fumble"
+    },
+    "Soft Leather": {
+      "damage": 0,
+      "crit": "possible fumble"
+    },
+    "None": {
+      "damage": 0,
+      "crit": "possible fumble"
+    },
+    "minRoll": 1,
+    "maxRoll": 8
+  },
+  {
+    "Plate": {
+      "damage": 0,
+      "crit": "NA"
+    },
+    "Chain": {
+      "damage": 0,
+      "crit": "NA"
+    },
+    "Rigid Leather": {
+      "damage": 0,
+      "crit": "NA"
+    },
+    "Soft Leather": {
+      "damage": 0,
+      "crit": "NA"
+    },
+    "None": {
+      "damage": 0,
+      "crit": "NA"
+    },
+    "minRoll": 9,
+    "maxRoll": 35
+  },
+  {
+    "Plate": {
+      "damage": 0,
+      "crit": "NA"
+    },
+    "Chain": {
+      "damage": 0,
+      "crit": "NA"
+    },
+    "Rigid Leather": {
+      "damage": 0,
+      "crit": "NA"
+    },
+    "Soft Leather": {
+      "damage": 0,
+      "crit": "NA"
+    },
+    "None": {
+      "damage": 0,
+      "crit": "NA"
+    },
+    "minRoll": 36,
+    "maxRoll": 40
+  },
+  {
+    "Plate": {
+      "damage": 0,
+      "crit": "NA"
+    },
+    "Chain": {
+      "damage": 0,
+      "crit": "NA"
+    },
+    "Rigid Leather": {
+      "damage": 0,
+      "crit": "NA"
+    },
+    "Soft Leather": {
+      "damage": 0,
+      "crit": "NA"
+    },
+    "None": {
+      "damage": 0,
+      "crit": "NA"
+    },
+    "minRoll": 41,
+    "maxRoll": 45
+  },
+  {
+    "Plate": {
+      "damage": 1,
+      "crit": "NA"
+    },
+    "Chain": {
+      "damage": 0,
+      "crit": "NA"
+    },
+    "Rigid Leather": {
+      "damage": 0,
+      "crit": "NA"
+    },
+    "Soft Leather": {
+      "damage": 0,
+      "crit": "NA"
+    },
+    "None": {
+      "damage": 0,
+      "crit": "NA"
+    },
+    "minRoll": 46,
+    "maxRoll": 50
+  },
+  {
+    "Plate": {
+      "damage": 1,
+      "crit": "NA"
+    },
+    "Chain": {
+      "damage": 1,
+      "crit": "NA"
+    },
+    "Rigid Leather": {
+      "damage": 0,
+      "crit": "NA"
+    },
+    "Soft Leather": {
+      "damage": 0,
+      "crit": "NA"
+    },
+    "None": {
+      "damage": 0,
+      "crit": "NA"
+    },
+    "minRoll": 51,
+    "maxRoll": 55
+  },
+  {
+    "Plate": {
+      "damage": 2,
+      "crit": "NA"
+    },
+    "Chain": {
+      "damage": 1,
+      "crit": "NA"
+    },
+    "Rigid Leather": {
+      "damage": 0,
+      "crit": "NA"
+    },
+    "Soft Leather": {
+      "damage": 0,
+      "crit": "NA"
+    },
+    "None": {
+      "damage": 0,
+      "crit": "NA"
+    },
+    "minRoll": 56,
+    "maxRoll": 60
+  },
+  {
+    "Plate": {
+      "damage": 2,
+      "crit": "NA"
+    },
+    "Chain": {
+      "damage": 2,
+      "crit": "NA"
+    },
+    "Rigid Leather": {
+      "damage": 0,
+      "crit": "NA"
+    },
+    "Soft Leather": {
+      "damage": 0,
+      "crit": "NA"
+    },
+    "None": {
+      "damage": 0,
+      "crit": "NA"
+    },
+    "minRoll": 61,
+    "maxRoll": 65
+  },
+  {
+    "Plate": {
+      "damage": 3,
+      "crit": "NA"
+    },
+    "Chain": {
+      "damage": 3,
+      "crit": "NA"
+    },
+    "Rigid Leather": {
+      "damage": 2,
+      "crit": "NA"
+    },
+    "Soft Leather": {
+      "damage": 3,
+      "crit": "NA"
+    },
+    "None": {
+      "damage": 0,
+      "crit": "NA"
+    },
+    "minRoll": 66,
+    "maxRoll": 70
+  },
+  {
+    "Plate": {
+      "damage": 3,
+      "crit": "NA"
+    },
+    "Chain": {
+      "damage": 4,
+      "crit": "NA"
+    },
+    "Rigid Leather": {
+      "damage": 3,
+      "crit": "NA"
+    },
+    "Soft Leather": {
+      "damage": 5,
+      "crit": "NA"
+    },
+    "None": {
+      "damage": 0,
+      "crit": "NA"
+    },
+    "minRoll": 71,
+    "maxRoll": 75
+  },
+  {
+    "Plate": {
+      "damage": 4,
+      "crit": "NA"
+    },
+    "Chain": {
+      "damage": 5,
+      "crit": "NA"
+    },
+    "Rigid Leather": {
+      "damage": 5,
+      "crit": "NA"
+    },
+    "Soft Leather": {
+      "damage": 7,
+      "crit": "A"
+    },
+    "None": {
+      "damage": 7,
+      "crit": "NA"
+    },
+    "minRoll": 76,
+    "maxRoll": 80
+  },
+  {
+    "Plate": {
+      "damage": 5,
+      "crit": "NA"
+    },
+    "Chain": {
+      "damage": 6,
+      "crit": "NA"
+    },
+    "Rigid Leather": {
+      "damage": 6,
+      "crit": "NA"
+    },
+    "Soft Leather": {
+      "damage": 9,
+      "crit": "A"
+    },
+    "None": {
+      "damage": 9,
+      "crit": "A"
+    },
+    "minRoll": 81,
+    "maxRoll": 85
+  },
+  {
+    "Plate": {
+      "damage": 5,
+      "crit": "NA"
+    },
+    "Chain": {
+      "damage": 7,
+      "crit": "NA"
+    },
+    "Rigid Leather": {
+      "damage": 7,
+      "crit": "A"
+    },
+    "Soft Leather": {
+      "damage": 10,
+      "crit": "B"
+    },
+    "None": {
+      "damage": 10,
+      "crit": "A"
+    },
+    "minRoll": 86,
+    "maxRoll": 90
+  },
+  {
+    "Plate": {
+      "damage": 6,
+      "crit": "NA"
+    },
+    "Chain": {
+      "damage": 8,
+      "crit": "NA"
+    },
+    "Rigid Leather": {
+      "damage": 9,
+      "crit": "A"
+    },
+    "Soft Leather": {
+      "damage": 12,
+      "crit": "B"
+    },
+    "None": {
+      "damage": 11,
+      "crit": "B"
+    },
+    "minRoll": 91,
+    "maxRoll": 95
+  },
+  {
+    "Plate": {
+      "damage": 6,
+      "crit": "NA"
+    },
+    "Chain": {
+      "damage": 9,
+      "crit": "NA"
+    },
+    "Rigid Leather": {
+      "damage": 10,
+      "crit": "B"
+    },
+    "Soft Leather": {
+      "damage": 13,
+      "crit": "B"
+    },
+    "None": {
+      "damage": 13,
+      "crit": "C"
+    },
+    "minRoll": 96,
+    "maxRoll": 100
+  },
+  {
+    "Plate": {
+      "damage": 7,
+      "crit": "NA"
+    },
+    "Chain": {
+      "damage": 10,
+      "crit": "A"
+    },
+    "Rigid Leather": {
+      "damage": 11,
+      "crit": "B"
+    },
+    "Soft Leather": {
+      "damage": 14,
+      "crit": "C"
+    },
+    "None": {
+      "damage": 15,
+      "crit": "C"
+    },
+    "minRoll": 101,
+    "maxRoll": 105
+  },
+  {
+    "Plate": {
+      "damage": 8,
+      "crit": "NA"
+    },
+    "Chain": {
+      "damage": 11,
+      "crit": "A"
+    },
+    "Rigid Leather": {
+      "damage": 12,
+      "crit": "B"
+    },
+    "Soft Leather": {
+      "damage": 15,
+      "crit": "C"
+    },
+    "None": {
+      "damage": 17,
+      "crit": "D"
+    },
+    "minRoll": 106,
+    "maxRoll": 110
+  },
+  {
+    "Plate": {
+      "damage": 8,
+      "crit": "A"
+    },
+    "Chain": {
+      "damage": 12,
+      "crit": "B"
+    },
+    "Rigid Leather": {
+      "damage": 13,
+      "crit": "C"
+    },
+    "Soft Leather": {
+      "damage": 17,
+      "crit": "C"
+    },
+    "None": {
+      "damage": 19,
+      "crit": "D"
+    },
+    "minRoll": 111,
+    "maxRoll": 115
+  },
+  {
+    "Plate": {
+      "damage": 9,
+      "crit": "A"
+    },
+    "Chain": {
+      "damage": 13,
+      "crit": "B"
+    },
+    "Rigid Leather": {
+      "damage": 15,
+      "crit": "C"
+    },
+    "Soft Leather": {
+      "damage": 18,
+      "crit": "D"
+    },
+    "None": {
+      "damage": 20,
+      "crit": "D"
+    },
+    "minRoll": 116,
+    "maxRoll": 120
+  },
+  {
+    "Plate": {
+      "damage": 9,
+      "crit": "A"
+    },
+    "Chain": {
+      "damage": 13,
+      "crit": "C"
+    },
+    "Rigid Leather": {
+      "damage": 16,
+      "crit": "C"
+    },
+    "Soft Leather": {
+      "damage": 19,
+      "crit": "D"
+    },
+    "None": {
+      "damage": 21,
+      "crit": "E"
+    },
+    "minRoll": 121,
+    "maxRoll": 125
+  },
+  {
+    "Plate": {
+      "damage": 10,
+      "crit": "B"
+    },
+    "Chain": {
+      "damage": 14,
+      "crit": "C"
+    },
+    "Rigid Leather": {
+      "damage": 17,
+      "crit": "D"
+    },
+    "Soft Leather": {
+      "damage": 20,
+      "crit": "D"
+    },
+    "None": {
+      "damage": 23,
+      "crit": "E"
+    },
+    "minRoll": 126,
+    "maxRoll": 130
+  },
+  {
+    "Plate": {
+      "damage": 11,
+      "crit": "B"
+    },
+    "Chain": {
+      "damage": 15,
+      "crit": "C"
+    },
+    "Rigid Leather": {
+      "damage": 18,
+      "crit": "D"
+    },
+    "Soft Leather": {
+      "damage": 22,
+      "crit": "D"
+    },
+    "None": {
+      "damage": 25,
+      "crit": "E"
+    },
+    "minRoll": 131,
+    "maxRoll": 135
+  },
+  {
+    "Plate": {
+      "damage": 11,
+      "crit": "C"
+    },
+    "Chain": {
+      "damage": 16,
+      "crit": "D"
+    },
+    "Rigid Leather": {
+      "damage": 20,
+      "crit": "D"
+    },
+    "Soft Leather": {
+      "damage": 23,
+      "crit": "E"
+    },
+    "None": {
+      "damage": 27,
+      "crit": "E"
+    },
+    "minRoll": 136,
+    "maxRoll": 140
+  },
+  {
+    "Plate": {
+      "damage": 12,
+      "crit": "D"
+    },
+    "Chain": {
+      "damage": 17,
+      "crit": "D"
+    },
+    "Rigid Leather": {
+      "damage": 21,
+      "crit": "E"
+    },
+    "Soft Leather": {
+      "damage": 24,
+      "crit": "E"
+    },
+    "None": {
+      "damage": 28,
+      "crit": "E"
+    },
+    "minRoll": 141,
+    "maxRoll": 145
+  },
+  {
+    "Plate": {
+      "damage": 12,
+      "crit": "E"
+    },
+    "Chain": {
+      "damage": 18,
+      "crit": "E"
+    },
+    "Rigid Leather": {
+      "damage": 22,
+      "crit": "E"
+    },
+    "Soft Leather": {
+      "damage": 25,
+      "crit": "E"
+    },
+    "None": {
+      "damage": 30,
+      "crit": "E"
+    },
+    "minRoll": 146,
+    "maxRoll": 150
+  }
+]

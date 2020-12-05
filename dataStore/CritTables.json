@@ -1,0 +1,135 @@
+[
+  {
+    "Roll": "0-5",
+    "CT-1 Crush": "Weak grip. No extra damage.",
+    "CT-2 Slash": "Weak strike yields no extra damage.",
+    "CT-3 Puncture": "",
+    "CT-4 Unbalancing": ""
+  },
+  {
+    "Roll": "6-20",
+    "CT-1 Crush": "Minor fracture of ribs. +5 hits. -5 to activity.",
+    "CT-2 Slash": "Minor calf wound. 1 hit per round.",
+    "CT-3 Puncture": "",
+    "CT-4 Unbalancing": ""
+  },
+  {
+    "Roll": "21-35",
+    "CT-1 Crush": "Blow to side. +4 hits. -40 to activity.",
+    "CT-2 Slash": "Blow to upper leg. +5 hits. If no leg armor: +2 hits per round.",
+    "CT-3 Puncture": "",
+    "CT-4 Unbalancing": ""
+  },
+  {
+    "Roll": "36-50",
+    "CT-1 Crush": "Blow to forearm. +5 hits. Stunned 1 round.",
+    "CT-2 Slash": "Minor chest wound. +3 hits. 1 hit per round. -5 to activity.",
+    "CT-3 Puncture": "",
+    "CT-4 Unbalancing": ""
+  },
+  {
+    "Roll": "51-65",
+    "CT-1 Crush": "Blow to shield shoulder breaks shield. If not shield: Shoulder broke, arm useless.",
+    "CT-2 Slash": "Minor forearm wound. +4 hits. 2 hits per round. Stunned 1 round.",
+    "CT-3 Puncture": "",
+    "CT-4 Unbalancing": ""
+  },
+  {
+    "Roll": "66-79",
+    "CT-1 Crush": "Blow breaks bone in leg. +12 hits. -40 to activity. Stunned 2 rounds.",
+    "CT-2 Slash": "Medium thigh wound. +6 hits. 1 hit per round. -10 to activity. Stunned 2 rounds.",
+    "CT-3 Puncture": "",
+    "CT-4 Unbalancing": ""
+  },
+  {
+    "Roll": 80,
+    "CT-1 Crush": "Strike to forehead. +30 hits. One eye destroyed. Stunned 24 rounds. If no helm: A 1 month coma results.",
+    "CT-2 Slash": "Neck strike severs carotid artery. Neck broken. Dies in 1 round of intense agony.",
+    "CT-3 Puncture": "",
+    "CT-4 Unbalancing": ""
+  },
+  {
+    "Roll": "81-86",
+    "CT-1 Crush": "Blow breaks weapon arm. Arm useless. Tendon damage. +8 hits. Stunned 2 rounds.",
+    "CT-2 Slash": "Slash muscle and tendons in weapon arm. Arm useless. +10 hits. 1 hit per round.",
+    "CT-3 Puncture": "",
+    "CT-4 Unbalancing": ""
+  },
+  {
+    "Roll": "87-89",
+    "CT-1 Crush": "Shatter knee. +9 hits. -60 to activity. Knocked down and stunned for 3 rounds.",
+    "CT-2 Slash": "Destroy 1 eye. +10 hits. Stunned for 30 rounds.",
+    "CT-3 Puncture": "",
+    "CT-4 Unbalancing": ""
+  },
+  {
+    "Roll": 90,
+    "CT-1 Crush": "Blow to back of neck paralyzes from the shoulders down. +25 hits. Foe quite stunned.",
+    "CT-2 Slash": "Disemboweled, dies instantly. 25% chance your weapon is stuck in opponent for 2 rounds.",
+    "CT-3 Puncture": "",
+    "CT-4 Unbalancing": ""
+  },
+  {
+    "Roll": "91-96",
+    "CT-1 Crush": "Unconscious for 4 hours due to blow to side of head. If no helm: Skull crushed. +20 hits.",
+    "CT-2 Slash": "Knocked out for 6 hours with a strike to side of head. +15 hits. If no helm: Dies instantly.",
+    "CT-3 Puncture": "",
+    "CT-4 Unbalancing": ""
+  },
+  {
+    "Roll": "97-99",
+    "CT-1 Crush": "Blast to chest sends ribcage through lungs. Drops and dies in 6 rounds. Vicious.",
+    "CT-2 Slash": "Sever lower leg. 20 hits per round. Drops and lapses into unconsciousness.",
+    "CT-3 Puncture": "",
+    "CT-4 Unbalancing": ""
+  },
+  {
+    "Roll": 100,
+    "CT-1 Crush": "Blow to jaw. Drives bone into brain. Dies instantly.",
+    "CT-2 Slash": "Slash side. Down, unconscious and dies in 3 rounds due to massive internal organ damage.",
+    "CT-3 Puncture": "",
+    "CT-4 Unbalancing": ""
+  },
+  {
+    "Roll": "101-106",
+    "CT-1 Crush": "Blow breaks hip. +15 hits. -75 to activity. Knocked down and stunned in 3 rounds.",
+    "CT-2 Slash": "Major abdominal wound. +10 hits. 8 hits per round. -10 to activity. Stunned for 4 rounds.",
+    "CT-3 Puncture": "",
+    "CT-4 Unbalancing": ""
+  },
+  {
+    "Roll": "107-109",
+    "CT-1 Crush": "Neck strike crushes throat. Cannot breath and stunned for 12 rounds. Poor fool then expires.",
+    "CT-2 Slash": "Sever weapon arm. 15 hits per round. Down and unconscious immediately.",
+    "CT-3 Puncture": "",
+    "CT-4 Unbalancing": ""
+  },
+  {
+    "Roll": 110,
+    "CT-1 Crush": "Crushes hip. +35 hits. Stunned for 2 rounds. Active the following 4 rounds, but then dies of nerve failure.",
+    "CT-2 Slash": "Impaled in heart. Dies instantly. Heart destroyed. 25% chance your weapon is stuck in foe for 3 rounds.",
+    "CT-3 Puncture": "",
+    "CT-4 Unbalancing": ""
+  },
+  {
+    "Roll": "111-116",
+    "CT-1 Crush": "Shatter elbow in weapon arm. Arm useless. Stunned 5 rounds.",
+    "CT-2 Slash": "Sever hand. 12 hits per round. Knocked down and stunned for 6 rounds.",
+    "CT-3 Puncture": "",
+    "CT-4 Unbalancing": ""
+  },
+  {
+    "Roll": "117-119",
+    "CT-1 Crush": "Blow to side crushes chest cavity. Drops and dies in 3 rounds.",
+    "CT-2 Slash": "Sever spine. Collapses immediately. Paralyzed from the neck down permanently. +20 hits.",
+    "CT-3 Puncture": "",
+    "CT-4 Unbalancing": ""
+  },
+  {
+    "Roll": 120,
+    "CT-1 Crush": "Blast to chest area. Destroy heart. Dies immediately. +25 hits. Fine work.",
+    "CT-2 Slash": "Strike to head destroys brain and makes life difficult for the unfortunate fool. Expires in a heap, immediately.",
+    "CT-3 Puncture": "",
+    "CT-4 Unbalancing": ""
+  }
+]
