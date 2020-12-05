@@ -6,10 +6,25 @@ def attackroll(OB, DB):
 
     def checkRollforOpenEnded(totalRoll):
         if (totalRoll == 69):
+            print("You rolled a 69! That becomes 96. Rolling again. ")
+            totalRoll = 96
             return True
         if (totalRoll ==66):
+            print("You rolled a 66! That becomes 99. Rolling again. ")
+            totalRoll = 99
             return True
         if (totalRoll >= 96):
+            print("You rolled over 95! Rolling again. ")
+            return True
+        else:
+            return False
+
+    def checkRollforFumble(totalRoll):
+        if (totalRoll in range(1,8)):
+            print("You may have fumbled: ")
+            print(totalRoll)
+            print("Here is the total: ")
+            print(OB + totalRoll - DB)
             return True
         else:
             return False
@@ -17,9 +32,14 @@ def attackroll(OB, DB):
     while (checkRollforOpenEnded(rollValue)):
         totalRoll += rollValue
         rollValue = random.randrange(1, 100)
-        return totalRoll   
+        return totalRoll  
+
+    while (checkRollforFumble(rollValue)):
+        fumble = random.randrange(1,100)
+        print("Here is the additional fumble roll: ")
+        return fumble
+
 
     return (OB + totalRoll - DB)
 
-
-print(attackroll(50,25))
+print(attackroll(0,0))
