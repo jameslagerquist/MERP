@@ -58,7 +58,7 @@ class Character:
     def setOb(self, amount: int):
         self.OB = amount
     def setDb(self, amount: int):
-        self.OB = amount
+        self.DB = amount
     def attack(self,enemy):
         roll = roll1d100()
         rollDamageTable(roll, self.weapon, enemy.armor)

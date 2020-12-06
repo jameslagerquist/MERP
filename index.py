@@ -27,7 +27,7 @@ while(True):
         char1 = hotKeyCharacters[0]
         char2 = hotKeyCharacters[1]
         char1.attack(char2)
-    elif choice == "8":
+    elif choice == "7":
         character = CharacterCreator.genChar()
         if len(hotKeyCharacters) <= 4:
             hotKeyCharacters.append(character)

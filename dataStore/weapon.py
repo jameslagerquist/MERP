@@ -50,7 +50,7 @@ def checkValidAttackType(attackType):
         raise Exception("[rollDamageTable]Invalid roll type" + attackType + "provided")
 
 def checkValidArmType(armType):
-    validArmValues = ["Chain", "Rigid Leather", "Soft Leather", "None"]
+    validArmValues = ["Plate", "Chain", "Rigid Leather", "Soft Leather", "None"]
     if armType in validArmValues: 
         return True
     else:
