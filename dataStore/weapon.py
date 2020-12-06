@@ -6,7 +6,7 @@ def loadCritJson(fileName):
         data = json.load(json_file)
         return data 
 
-critTables = {
+attackTables = {
     "slash" : loadCritJson("AT1_HandedSlash.json"),
     "concussion" : loadCritJson("AT2_1HandedConcussion.json"),
     "2hweap" : loadCritJson("AT3_2HandedWeapon.json"),
@@ -14,7 +14,7 @@ critTables = {
 }
 
 def rollDamageTable(roll, weapType, enemyArm):
-    global critTables
+    global attackTables
     
     checkValidArmType(enemyArm)
     checkValidAttackType(weapType)
@@ -22,12 +22,12 @@ def rollDamageTable(roll, weapType, enemyArm):
     if roll == None:
         raise Exception("[rollDamageTable]No roll value provided")
   
-    critTable = critTables[weapType]
+    attackTable = attackTables[weapType]
     damageReturn = None
     
-    for critObject in critTable:
-        if roll < critObject["maxRoll"] or critObject["maxRoll"] >= 150 and roll > critObject["maxRoll"]:
-            damageReturn = critObject
+    for attackObject in attackTable:
+        if roll < attackObject["maxRoll"] or attackObject["maxRoll"] >= 150 and roll > attackObject["maxRoll"]:
+            damageReturn = attackObject
             break
     oDmg = damageReturn[enemyArm]
     printAttackReport(oDmg, weapType, enemyArm, roll)
@@ -55,6 +55,3 @@ def checkValidArmType(armType):
         return True
     else:
         raise Exception("[rollDamageTable]Invalid roll type" + armType + "provided")
-
-
-rollDamageTable(160, "slash", "Soft Leather")

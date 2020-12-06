@@ -1,5 +1,4 @@
 import CharacterCreator
-import NewAttack
 
 print("Jim's Rolemaster Stuff")
 

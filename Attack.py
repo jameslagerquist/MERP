@@ -1,5 +1,6 @@
 import random
 from Roller import roll1d100
+
 def attackroll(OB = 0, DB = 0):
     rollValue = roll1d100()
     totalRoll = rollValue
@@ -9,7 +10,9 @@ def attackroll(OB = 0, DB = 0):
         totalRoll += rollValue
 
     print("Roll Total was " + str(totalRoll))
-    return (OB + totalRoll - DB)
+    afterObDbRoll = totalRoll + OB - DB
+    print("Roll after OB/DB Modifier was " + str(afterObDbRoll))
+    return afterObDbRoll
 
 def checkRollforOpenEnded(rollVal):
     if (rollVal == 69):

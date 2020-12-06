@@ -2,7 +2,7 @@ import random
 import json
 import dataStore.CharacterNames
 from dataStore.weapon import rollDamageTable
-from Roller import roll1d100
+from Attack import attackroll
 
 def roll1d100String():
     return random.randrange(20, 100)
@@ -59,8 +59,12 @@ class Character:
         self.OB = amount
     def setDb(self, amount: int):
         self.DB = amount
+    def setRandomOb(self):
+        self.OB = random.randrange(10, 100)
+    def setRandomDb(self):
+        self.DB = random.randrange(10, 40)
     def attack(self,enemy):
-        roll = roll1d100()
+        roll = attackroll(self.OB, enemy.DB)
         rollDamageTable(roll, self.weapon, enemy.armor)
     def setArmor(self,arm):
         self.armor = arm
@@ -74,5 +78,7 @@ def genChar():
     newChar.chooseRandomWeapon()
     newChar.chooseRace()
     newChar.chooseClass()
+    newChar.setRandomDb()
+    newChar.setRandomOb()
     newChar.prettyPrintJson()
     return newChar
